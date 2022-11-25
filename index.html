@@ -1,141 +1,262 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About Me</title>
-    <link rel="stylesheet" href="index.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!------------------------------------------------------------>
-  <nav id="topnav">
-    <a id="logo" class="nav-link" href="index.html">Site</a>
-    <a class="nav-link" href="index.html">Home</a>
-    <a class="nav-link" href="#second-container">About Me</a>
-    <a class="nav-link" href="#third-container">Languages</a>
-    <a class="nav-link" href="#fourth-container">Footer</a>
-    <a class="nav-link" href="languages.html">Experience</a>
-    <a class="nav-link" href="contact_me.html">Contact Me</a>
-  </nav>
-  <!------------------------------------------------------------>
-  <div class="about-wrapper">
-    <div class="about-left">
-      <div class="about-left-content">
-        <div>
-          <div class="shadow">
-            <div class="about-img">
-              <img src="https://images.unsplash.com/photo-1637140945341-f28ada987326?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt = "about image">
-            </div>
-          </div>
-          <h2>Programmer</h2>
-          <h3>Web developer</h3>
-        </div>
-      </div> 
-    </div>
-    <!------------------------------------------------------------>
-    <a id="second-container"></a>
-    <div class="about-right">
-      <h1>Hello<span>!</span></h1>
-      <h2>Here's who I am & what I do</h2>
-      <div class="about-btns">
-        <a href="https://github.com/Nikplay32" target="_blank">
-          <button type="button" class="btn btn-white">My Github</button>
-        </a>
-      </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, aspernatur possimus ullam quaerat, laboriosam ex voluptate aliquid laborum, obcaecati ratione accusamus! Ea nisi modi dolor nam numquam? Temporibus, molestias amet.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iure tempora alias laudantium sapiente impedit!</p>
-    </div>
-    <!------------------------------------------------------------>
-    <a id="third-container"></a>
-    <div class="about-wrapper">
-      <div class="about-left">
-        <h3>My Languages</h3>
-        <div class="card_group">
-          <div class="card">
-            <div>
-              <img src="https://images.unsplash.com/photo-1509718443690-d8e2fb3474b7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Image1" style="width:100%">
-              <div class="container">
-              <h4><b>C# Language</b></h4>
-              <p>C# is a programming language developed by Microsoft. It is used to develop web apps, desktop apps, mobile apps, games and much more.</p><br>
-              <a href="https://www.w3schools.com/cs/index.php" target="_blank">
-                <button type ="button" class="btn btn-white">More Info</button>
-              </a>
-            </div>
-            </div>
-          </div>
-          <div class="card">
-            <div>
-              <img src="https://media.istockphoto.com/photos/metaverse-concept-vr-and-artificial-intelligence-picture-id1365855610?k=20&m=1365855610&s=170667a&w=0&h=2RyAHnjSSEi082SVTshU02BjEOkC2hTPLqD74xrqg2k=" alt="Image1" style="width:100%">
-              <div class="container">
-              <h4><b>Python Language</b></h4>
-              <p>C# is a programming language developed by Microsoft. It is used to develop web apps, desktop apps, mobile apps, games and much more.</p><br>
-              <a href="https://www.w3schools.com/python/default.asp" target="_blank">
-                <button type="button" class="btn btn-white">More Info</button>
-              </a>
-            </div>
-            </div>
-          </div>
-          <div class="card">
-            <div>
-              <img src="https://images.unsplash.com/photo-1585079542156-2755d9c8a094?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" alt="Image1" style="width:100%">
-              <div class="container">
-              <h4><b>HTML/CSS Language</b></h4>
-              <p>C# is a programming language developed by Microsoft. It is used to develop web apps, desktop apps, mobile apps, games and much more.</p><br>
-              <a href="https://www.w3schools.com/html/default.asp" target="_blank">
-                <button type="button" class="btn btn-white">More Info</button>
-              </a>
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+<!----------------------------------------------------------------------------------->
+	<header>
+		<a href="#" class="logo">Portfolio</a>
+		<div class="bx bx-menu" id="menu-icon"></div>
+		<ul class="navbar">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#hobbies">My Hobbies</a></li>
+			<li><a href="#contact">Contact Me</a></li>
+			<li><a href="#">EN</a><li>
+		</ul>
+	</header>
+<!----------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h1>Discover my <br> Art Space</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+			<a href="https://github.com/Nikplay32" target="_blank" class="home-btn">My Github</a>
+		</div>
+	</section>
+<!----------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------->
+	<section class="container" id="skills">
+		<div class="text">
+			<h2>My Knowledge</h2>
+		</div>
+		<div class="row-items">
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/calculate_FILL0_wght400_GRAD0_opsz48.svg">
+				</div>
+				<h4>C#/C++</h4>
+				<p>Good skills</p>
+			</div>
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/dashboard_customize_FILL0_wght400_GRAD0_opsz48.svg">
+				</div>
+				<h4>Python</h4>
+				<p>Good skills</p>
+			</div>
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/account_tree_FILL0_wght400_GRAD0_opsz48.svg">
+				</div>
+				<h4>GO</h4>
+				<p>Perfect skills</p>
+			</div>
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/monitoring_FILL0_wght400_GRAD0_opsz48.svg">
+				</div>
+				<h4>HTML/CSS</h4>
+				<p>Good skills</p>
+			</div>
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/database_FILL0_wght400_GRAD0_opsz48.svg">
+				</div>
+				<h4>Databases/SQL</h4>
+				<p>Mid Skills</p>
+			</div>
+			<div class="container-box">
+				<div class="container-img">
+					<img src="img/work_FILL0_wght400_GRAD0_opsz48.svg">
+				</div>
+				<h4>JS</h4>
+				<p>Small Knowledge</p>
+			</div>
+		</div>
+	</section>
+<!----------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------->
+	<section class="projects" id="projects">
+		<div class="title">
+			<h2>My Upcoming <br> Projects</h2>
+		</div>
+		<div class="projects-content">
+			<div class="box">
+				<div class="image">
+					<a href="https://github.com/Nikplay23" target="_blank"><img src="img/pexels-olia-danilevich-4974912.jpg"></a>
+				</div>
+				<div class="prj-content">
+					<div class="data">
+						<h4>System Project</h4>
+						<p>Teacher: Oksana Roslova</p>
+						<p>Until 04.2023</p>
+					</div>
+					<div class="stars">
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+					</div>
+				</div>
+			</div>
 
-    <!------------------------------------------------------->
-    <div class="gallery">
-      <div class="box">
-        <img src="https://images8.alphacoders.com/736/736302.png">
-      </div>
-      <div class="box">
-        <img src="https://cdn.pixabay.com/photo/2014/10/14/20/24/football-488714_960_720.jpg">
-      </div>
-      <div class="box">
-        <img src="https://assets.goal.com/v3/assets/bltcc7a7ffd2fbf71f5/blted9827b7153037b8/624b6061699f787e7cea97b1/neymar_psg_lorient.jpg?auto=webp&fit=crop&format=jpg&height=800&quality=60&width=1200">
-      </div>
-      <div class="box">
-        <img src="https://cdn.pixabay.com/photo/2017/09/05/10/19/business-2717063_960_720.jpg">
-      </div>
-    </div>
-    <!------------------------------------------------------>
-    <!-----------------------------------------------------
-      <div class="circles">
-        <div class="circle">
-          <div class="inner">JS<br>25%</div>
-        </div>
-        <div class="circle">
-          <div class="inner">CSS<br>45%</div>
-        </div>
-        <div class="circle">
-          <div class="inner">HTML<br>60%</div>
-        </div>
-        <div class="circle">
-          <div class="inner">C#<br>75%</div>
-        </div>
-      </div>
-    ------------------------------------------------------>
-    <a id="fourth-container"></a>
-    <footer>
-      <div class="footer-content">
-        <h3>Footer with Links</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, aspernatur possimus ullam quaerat, laboriosam ex voluptate aliquid laborum, obcaecati ratione accusamus! Ea nisi modi dolor nam numquam? Temporibus, molestias amet.</p>
-        <ul class="links">
-          <li><a href="#"><i class=""></i></a></li>
-          <li><a href="#"><i class="github"></i></a></li>
-          <li><a href="#"><i class=""></i></a></li>
-        </ul>
-        <p>Copyright &copy;2022</p> 
-      </div>
-    </footer>
-    <!------------------------------------------------------------>
-  </body>
+			<div class="box">
+				<div class="image">
+					<a href="https://github.com/Nikplay23" target="_blank"><img src="img/pexels-mister-mister-2442888.jpg"></a>
+				</div>
+				<div class="prj-content">
+					<div class="data">
+						<h4>My Portfolio</h4>
+						<p>Teacher: Vadims Malickis</p>
+						<p>Unlimitted(For now)</p>
+					</div>
+					<div class="stars">
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+					</div>
+				</div>
+			</div>
+
+			<div class="box">
+				<div class="image">
+					<a href="https://github.com/Nikplay23" target="_blank"><img src="img/pexels-panumas-nikhomkhai-1148820.jpg"></a>
+				</div>
+				<div class="prj-content">
+					<div class="data">
+						<h4>Accenture SQL</h4>
+						<p>Teacher: Accenture Lections</p>
+						<p>Until 01.2023</p>
+					</div>
+					<div class="stars">
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+						<a href="#"><i class='bx bxs-star'></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!----------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------->
+	<section class="hobbies" id="hobbies">
+		<div class="title">
+			<h2>My Personal <br> Hobbies</h2>
+		</div>
+		<div class="hobbies-content">
+			<div class="container_of_content">
+				<img src="img/peakpx.jpg">
+				<h5>Football</h5>
+				<p>My Favorite Sport</p>
+			</div>
+			<div class="container_of_content">
+				<img src="img/pexels-pixabay-270366.jpg">
+				<h5>Programming</h5>
+				<p>My Main Work</p>
+			</div>
+			<div class="container_of_content">
+				<img src="img/pexels-shashank-kumawat-893975.jpg">
+				<h5>Languages</h5>
+				<p>Like to explore new languages</p>
+			</div>
+			<div class="container_of_content">
+				<img src="img/1567967685.5946.jpeg">
+				<h5>Cybersport</h5>
+				<p>Like to watch Cybersport</p>
+			</div>
+			<div class="container_of_content">
+				<img src="img/pexels-cottonbro-studio-4761780.jpg">
+				<h5>Sport Activities</h5>
+				<p>Sport gives more energy</p>
+			</div>
+			<div class="container_of_content">
+				<img src="img/2071740.jpg">
+				<h5>Games</h5>
+				<p>My vacation</p>
+			</div>
+		</div>
+	</section>
+<!----------------------------------------------------------------------------------->	
+<!----------------------------------------------------------------------------------->
+	<section class="contact_part">
+		<div class="contact_text">
+			<h2>Contacts</h2>
+			<p>Write me for more my skills and <br> projects information</p>
+		</div>
+
+		<div class="send">
+			<form>
+				<input type="email" placeholder="Write Your Email" required>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</section>
+<!----------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------->
+	<section id="contact">
+		<div class="footer">
+			<div class="main">
+				<div class="list">
+					<h4>Quick Links</h4>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Projects</a></li>
+					</ul>
+				</div>
+				<div class="list">
+					<h4>Support</h4>
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Tour</a></li>
+					</ul>
+				</div>
+				<div class="list">
+					<h4>Contact Info</h4>
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Tour</a></li>
+					</ul>
+				</div>
+				<div class="list">
+					<h4>Connect</h4>
+					<div class="social">
+						<a href="#"><i class='bx bxl-facebook' ></i></a>
+						<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+						<a href="#"><i class='bx bxl-twitter' ></i></a>
+						<a href="#"><i class='bx bxl-linkedin' ></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+<!----------------------------------------------------------------------------------->		
+<!----------------------------------------------------------------------------------->
+		<div class="end-text">
+			<p>Copyright ©2022 | Made with by Nikita Peresuņko DP3-1</p>
+		</div>
+	</section>
+	<script type="text/javascript" src="js/script.js"></script>
+<!----------------------------------------------------------------------------------->
+</body>
 </html>
