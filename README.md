@@ -7,4 +7,5 @@ Various features and other JS things will appear in the next few days. Because I
 Here's a link to my website - https://nikplay32.github.io/MyWebsite/ 
 For some reason, it does not show the background of the main section - home. I have not figured out this problem yet. As it really looks like you can see in the file - Home_Page.png  
 UPD: error with image was fixed
-I'm currently studying the databases and js in order to connect them safely to my site. I think that in the next few days I will start adding all this to my page.
+27.11.2022 - HTML Contact Form Page for future PHP testing process.
+Currently installing the server and connecting PHP(Changes will be soon)
