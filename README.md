@@ -9,4 +9,4 @@ For some reason, it does not show the background of the main section - home. I h
 UPD: error with image was fixed
 27.11.2022 - HTML Contact Form Page for future PHP testing process.
 Currently installing the server and connecting PHP(Changes will be soon)
-30.01.2022 - Working in process. Uploads soon
+30.01.2023 - Working in process. Uploads soon
